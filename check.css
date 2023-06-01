@@ -1,0 +1,437 @@
+.sides{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 30px;
+}
+.left-side .fa-magnifying-glass{
+  margin-right: 10px;
+  color: rgb(132, 126, 126);
+}
+.left-side input{
+outline: none;
+border: none;
+font-size: 20px;
+}
+.middle-side{
+    border: 3.5px solid rgb(100, 95, 95);
+    width: 210px;
+    height: 50px;
+    font-weight: bolder;
+ margin-right: 80px;
+ font-size: 16px;
+margin-top: -10px;
+color: gray;
+
+}
+.middle-side h1{
+    margin-top: 10px;
+}
+.right-side i{
+margin: 10px;
+color: gray;
+}
+.right-side i:hover{
+   color: black;
+  transition: ease .5s;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+.nav1 a{
+    margin: 35px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: gray;
+}
+.nav1 a:hover{
+  
+    color: rgb(110, 10, 121);
+}
+.about{
+    background-color:whitesmoke;
+    height: 60px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about a{
+  text-decoration: none;
+
+font-size: 18px;
+color: rgb(160, 77, 238);
+
+}
+.about .ab{
+  
+margin-left: 10px;
+font-size: 18px;
+color: rgb(43, 41, 41);
+}
+.bord{
+    border: 2px solid grey;
+   height: 800px;
+   width: 500px;
+}
+.bord .left-che{
+   padding: 30px;
+}
+.tek{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -70px;
+}
+.tek .aa{
+   
+  margin-left: 65px;
+}
+.place{
+    height: 80px;
+    width: 1200px;
+    border: 2px solid grey;
+    margin-top: 60px;
+    margin-left: 120px;
+    position: relative;
+}
+.place p{
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  
+}
+p a{
+    text-decoration: none;
+}
+.Check-out{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+}
+.name1{
+    display: flex;
+    justify-content: space-around;
+}
+.name2{
+    display: flex;
+    justify-content: space-around;
+}
+.las{
+   margin-left: -11px;
+}
+.fir{
+   margin-left: -107px;
+}
+.las1{
+   margin-left: -11px;
+}
+.las2{
+   margin-left: -11px;
+}
+.fir1{
+   margin-left: -95px;
+}
+.fir2{
+   margin-left: -100px;
+}
+.inp1{
+    margin-left: 80px;
+}
+.top1{
+    border: 2px solid gray;
+    width: 600px;
+    height: 150px;
+}
+.top1 p{
+margin-left: 60px;
+margin-top: 20px;
+margin-bottom: -4px;
+font-weight: bold;
+color: rgb(95, 94, 94);
+}
+.apll{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.apll p{
+   position: absolute;
+   top: -10px;
+   left: 180px;
+}
+.appp{
+    position: absolute;
+    width: 81px;
+    height: 37px;
+ left: 225px;
+ top: 1px;
+ background-color: blueviolet;
+ border: none;
+ border-radius: 5px;
+} 
+.appp:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+.app{
+    width: 300px;
+    height: 35px;
+}
+.middle{
+    height: 800px;
+    width: 545px;
+    border: 2px solid gray;
+}
+.middle1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+.buut input{  
+    width: 440px;
+height: 45px;
+
+}
+.buut{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.buut input{
+    margin: 6px;
+    background-color: white;
+    color: rgb(221, 213, 213);
+    border-radius: 4cap;
+}
+.bb{
+    position: relative;
+}
+.bb2{
+    position: absolute;
+    top: 4px;
+    color: blueviolet;
+    left: 20px;
+}
+.b22{
+    position: relative;
+}
+.bb22{
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    color: blueviolet;
+}
+.b33{
+    position: relative;
+}
+
+.bbb{
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    color: blueviolet;
+}
+.bbbb{
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    color: blueviolet;
+}
+.bayt{
+    position: relative;
+    margin-top: 10px;
+    
+}
+.bayt1:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+.bayt2{
+   position: absolute;
+   top: 10px;
+   left: 165px;
+   color: antiquewhite;
+    
+}
+.bayt input{
+ height: 60px;
+ background-color: blueviolet;
+ border: none;
+ border-radius: 4px;
+    
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+.fot-left1{
+    display: flex;
+    justify-content: space-around;
+   margin-left: -70px;
+   margin-top: 30px;
+}
+.fot-left h1{
+ font-size: 25px;
+ margin-top: 33px;
+ margin-bottom: -30px;
+ color: rgb(64, 64, 64);
+}
+.fot-left1 div{
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+.fot-left1 p{
+   margin: 30px;
+   font-size: 18px;
+   color: gray;
+    
+}
+.fot-middle{
+    margin-left: -170px;
+}
+.fot-middle h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+}
+.shoe img{
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+}
+.shoe{
+    margin-top: 60px;
+}
+.promo{
+  margin-top: 30px;
+}
+.promo p{
+ margin-top: 5px;
+ font-size: 22px;
+ color: grey;
+}
+.promo a{
+ text-decoration: none;
+ font-size: 24px;
+ color: rgb(170, 98, 237);
+}
+.loc{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.gmail{
+    display: flex;
+}
+.details{
+margin-top: 50px;
+}
+ .fot-right h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+    margin-left: -140px;
+
+}
+.details{
+    margin-left: -140px;
+  
+}
+.details div{
+    margin-top: 11px;
+    padding: 5px;
+  
+}
+.details i{
+   color: rgb(106, 5, 202);
+   font-size: 20px;
+  
+}
+.details p{
+   color: grey;
+   font-size: 22px;
+  
+}
+.fot-right2{
+    margin-top: 40px;
+    margin-left: -130px;
+    position: relative;
+}
+.fot-right2 .su{
+  color: rgb(97, 96, 96);
+}
+.fot-right2 p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+.fot-right2 .em{
+   font-size: 25px;
+   width: 300px;
+   height: 50px;
+  
+
+}
+
+.fot-right2 .se{
+ height: 47px;
+width: 80px;
+position: absolute;
+right: 2px;
+top: 52px;
+background-color: blueviolet;
+border-radius: 5px;
+border: none;
+
+
+}
+.se:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+.fot-right2 .eml{
+color: rgb(170, 163, 163);
+position: absolute;
+top: 40px;
+left: 10px;
+}
+.fot-right2 .sen{
+color: rgb(230, 221, 221);
+position: absolute;
+top: 48px;
+right: 15px;
+font-size: 20px;
+}
+.fot2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.fot2 p{
+font-size: 20px;
+color: rgb(181, 176, 176);
+}
+.fot2 i{
+font-size: 20px;
+color: rgb(99, 97, 97);
+}
+.fot2 .sem{
+font-size: 20px;
+color: rgb(122, 28, 209);
+}
+

@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sides{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 30px;
+}
+.left-side .fa-magnifying-glass{
+  margin-right: 10px;
+  color: rgb(132, 126, 126);
+}
+.left-side input{
+outline: none;
+border: none;
+font-size: 20px;
+}
+.middle-side{
+    border: 3.5px solid rgb(100, 95, 95);
+    width: 210px;
+    height: 50px;
+    font-weight: bolder;
+ margin-right: 80px;
+ font-size: 16px;
+margin-top: -10px;
+color: gray;
+
+}
+.middle-side h1{
+    margin-top: 10px;
+}
+.right-side i{
+margin: 10px;
+color: gray;
+}
+.right-side i:hover{
+   color: black;
+  transition: ease .5s;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+.nav1 a{
+    margin: 35px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: gray;
+}
+.nav1 a:hover{
+  
+    color: rgb(110, 10, 121);
+}
+.about{
+    background-color:whitesmoke;
+    height: 60px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about a{
+  text-decoration: none;
+margin-left: 50px;
+font-size: 18px;
+color: rgb(160, 77, 238);
+
+}
+.about .ab{
+  
+margin-left: 10px;
+font-size: 18px;
+color: rgb(43, 41, 41);
+}
+.second-sec{
+    height: 550px;
+  
+}
+.Big-Sale{
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+  
+}
+.Big-Sale h1{
+   margin-top: -110Px;
+    font-size: 40px;
+  font-weight: lighter;
+  margin-left: -50px;
+  
+  }
+  .fa-minus{
+    margin-top: -160Px;
+    font-size: 60px;
+   margin-left: -160px;
+    color: rgb(226, 195, 255);
+    
+}
+.sale{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 110px;
+   
+ 
+}
+.sale div{
+margin-top: -30px;
+
+}
+.sale .text{
+margin-left: -100px;
+
+}
+
+.sale .mg{
+margin-left: 40px;
+position: relative;
+}
+.sale .circle{
+background-color: rgb(255, 243, 243);
+height: 100px;
+width: 100px;
+border-radius: 50%;
+position: absolute;
+z-index: 1;
+top: 200px;
+left: 300px;
+}
+.third-sec{
+   height: 850px;
+}
+.the{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+.the h1{
+    margin-top: 80px;
+    font-size: 40px;
+  font-weight: lighter;
+  
+  }
+.undr{
+    margin-top: 30px;
+    font-size: 60px;
+    margin-right: -90px;
+    color: rgb(226, 195, 255);
+}
+.mate{
+    display: flex;
+   margin-left: 60px;
+   margin-top: 70px;
+}
+.mate img{
+  border-radius: 50%;
+  margin: 50px;
+}
+.mate .work{
+  margin-left: 90px;
+  margin-top: -30px;
+}
+.mate .work p{
+ font-size: 23px;
+ color: gray;
+}
+.wo{
+    margin: 5px;
+}
+.fourth_sec{
+    display: flex;
+    justify-content: space-around;
+    height: 230px;
+    margin-top: 80px;
+}
+.first-si{
+    display: flex;
+    width: 400px;
+}
+.first-si i{
+    font-size: 50px;
+    color: blueviolet;
+}
+.truk{
+    flex-direction: row-reverse;
+}
+.first-si p{
+    font-size: 15px;
+    color: rgb(125, 122, 129);
+}
+.first-si div{
+   margin-left: 10px;
+}
+.skipping .sh{
+    margin: 15px;
+}
+.first-si .fa-question{
+    background-color:blueviolet;
+    height: 50px;
+    width: 50px;
+    color: aliceblue;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+.fot-left1{
+    display: flex;
+    justify-content: space-around;
+   margin-left: -70px;
+   margin-top: 30px;
+}
+.fot-left h1{
+ font-size: 25px;
+ margin-top: 33px;
+ margin-bottom: -30px;
+ color: rgb(64, 64, 64);
+}
+.fot-left1 div{
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+.fot-left1 p{
+   margin: 30px;
+   font-size: 18px;
+   color: gray;
+    
+}
+.fot-middle{
+    margin-left: -170px;
+}
+.fot-middle h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+}
+.shoe img{
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+}
+.shoe{
+    margin-top: 60px;
+}
+.promo{
+  margin-top: 30px;
+}
+.promo p{
+ margin-top: 5px;
+ font-size: 22px;
+ color: grey;
+}
+.promo a{
+ text-decoration: none;
+ font-size: 24px;
+ color: rgb(170, 98, 237);
+}
+.loc{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.gmail{
+    display: flex;
+}
+.details{
+margin-top: 50px;
+}
+ .fot-right h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+    margin-left: -140px;
+
+}
+.details{
+    margin-left: -140px;
+  
+}
+.details div{
+    margin-top: 11px;
+    padding: 5px;
+  
+}
+.details i{
+   color: rgb(106, 5, 202);
+   font-size: 20px;
+  
+}
+.details p{
+   color: grey;
+   font-size: 22px;
+  
+}
+.fot-right2{
+    margin-top: 40px;
+    margin-left: -130px;
+    position: relative;
+}
+.fot-right2 .su{
+  color: rgb(97, 96, 96);
+}
+.fot-right2 p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+.fot-right2 .em{
+   font-size: 25px;
+   width: 300px;
+   height: 50px;
+  
+
+}
+
+.fot-right2 .se{
+ height: 47px;
+width: 80px;
+position: absolute;
+right: 2px;
+top: 50px;
+background-color: blueviolet;
+border-radius: 5px;
+border: none;
+
+
+}
+.se:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+.fot-right2 .eml{
+color: rgb(170, 163, 163);
+position: absolute;
+top: 60px;
+left: 10px;
+}
+.fot-right2 .sen{
+color: rgb(230, 221, 221);
+position: absolute;
+top: 62px;
+right: 15px;
+font-size: 20px;
+}
+.fot2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.fot2 p{
+font-size: 20px;
+color: rgb(181, 176, 176);
+}
+.fot2 i{
+font-size: 20px;
+color: rgb(99, 97, 97);
+}
+.fot2 .sem{
+font-size: 20px;
+color: rgb(122, 28, 209);
+}
+
+
+

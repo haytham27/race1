@@ -1,0 +1,482 @@
+.sides{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 30px;
+}
+.left-side .fa-magnifying-glass{
+  margin-right: 10px;
+  color: rgb(132, 126, 126);
+}
+.left-side input{
+outline: none;
+border: none;
+font-size: 20px;
+}
+.middle-side{
+    border: 3.5px solid rgb(100, 95, 95);
+    width: 210px;
+    height: 50px;
+    font-weight: bolder;
+ margin-right: 80px;
+ font-size: 16px;
+margin-top: -10px;
+color: gray;
+
+}
+.middle-side h1{
+    margin-top: 10px;
+}
+.right-side i{
+margin: 10px;
+color: gray;
+}
+.right-side i:hover{
+   color: black;
+  transition: ease .5s;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+.nav1 a{
+    margin: 35px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: gray;
+}
+.nav1 a:hover{
+  
+    color: rgb(110, 10, 121);
+}
+.about{
+    background-color:whitesmoke;
+    height: 60px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about a{
+  text-decoration: none;
+margin-left: 50px;
+font-size: 18px;
+color: rgb(160, 77, 238);
+
+}
+.about .ab{
+  
+margin-left: 10px;
+font-size: 18px;
+color: rgb(43, 41, 41);
+}
+.second-sec{
+    margin-top: 70px;
+    height: 950px;
+}
+
+.first-p{
+    display: flex;
+    justify-content: center;
+}
+.tab td{
+   padding: 40px;
+}
+.plus{
+    color: blueviolet;
+     font-size: 20px;
+     position: absolute;
+     top: -13px;
+     left: 85px;
+  }
+   .minc{
+      color: blueviolet;
+      font-size: 20px;
+      position: absolute;
+      top: -15px;
+      left: 13px;
+  
+  }
+   .num{
+    color: grey;
+     font-size: 20px;
+     position: absolute;
+     top: -13px;
+     left: 49px;
+  
+  }
+.emy{
+    font-size: 25px;
+    width: 100px;
+    height: 30px;
+   
+   
+ }
+ .sey{
+     width: 30px;
+     height: 30px;
+     position: absolute;
+     left: 20px;
+     top: 3px;
+    left: 2px;
+ }
+ .sey1{
+     width: 30px;
+     height: 30px;
+     position: absolute;
+     top: 3px;
+    left: 75px;
+ }
+ .sey:hover{
+    background-color: rgb(170, 102, 235);
+    transition: ease;
+  }
+  .sey1:hover{
+    background-color: rgb(170, 102, 235);
+    transition: ease;
+  }
+ .incres{
+     position: relative;
+     margin-top: 20px;
+    
+ }
+.second-p{
+    display: flex;
+    justify-content: space-between;
+}
+.remove{
+    position: relative;
+}
+.x{
+    position: absolute;
+    top: -5px;
+    left: 25px;
+    color: rgb(232, 231, 231);
+    font-size: 15px;
+}
+.re{
+    width: 60px;
+    height: 40px;
+   background-color: blueviolet;
+   border: none;
+   border-radius: 4px;
+}
+.re:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+.le-second{
+    display: flex;
+   margin-top: 40px;
+   margin-left: 80px;
+}
+.le-second input{
+ margin: 15px;
+}
+ .up{
+  position: relative;
+}
+ .up .bop{
+  position: absolute;
+  top: 6pt;
+  left: 80px;
+  color: rgb(243, 243, 243);
+  
+}
+ .co{
+  position: relative;
+}
+ .co .bop1{
+  position: absolute;
+  top: 6pt;
+  left: 80px;
+  color: blueviolet;
+  
+}
+.bo:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+
+.bo{
+    width: 250px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border: none;
+}
+.bo1{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(242, 242, 243);
+    border-radius: 4px;
+    border: none;
+}
+.cod1:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+.cou1{
+    margin-left: -260px;
+}
+.cou1 p{
+   font-size: 22px;
+   color: grey;
+   margin-top: -7px;
+}
+.cod{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    
+}
+.cod1{
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border: none;
+}
+.code{
+   display: flex;
+}
+.app{
+    position: relative;
+}
+.app p{
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    font-size: 18px;
+    color: antiquewhite;
+}
+.coc{
+    position: relative;
+}
+.coc p{
+    position: absolute;
+    top: 33px;
+    left: 25px;
+   font-size: 17px;
+}
+.rt-second{
+    margin-top: 40px;
+    margin-right: 90px;
+}
+.rt-second h1{
+margin-right: -50px;
+ border-bottom: 1px solid grey;
+ 
+}
+.right-p{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.sout{
+    margin-left:-70px;
+}
+.tot{
+    margin-right: -90px;
+    }
+    
+.proc:hover{
+
+        box-shadow: 2px 2px 3px 3px grey;
+        transition: ease;
+        
+        } 
+.proc{
+    width: 300px;
+    height: 45px;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border: none;
+}
+.pro-che{
+    position: relative;
+    margin-top: 45px;
+    
+}
+.pro-che p{
+    position: absolute;
+   top: -1px;
+   left: 57px;
+   color: rgb(215, 211, 211);
+
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+.fot-left1{
+    display: flex;
+    justify-content: space-around;
+   margin-left: -70px;
+   margin-top: 30px;
+}
+.fot-left h1{
+ font-size: 25px;
+ margin-top: 33px;
+ margin-bottom: -30px;
+ color: rgb(64, 64, 64);
+}
+.fot-left1 div{
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+.fot-left1 p{
+   margin: 30px;
+   font-size: 18px;
+   color: gray;
+    
+}
+.fot-middle{
+    margin-left: -170px;
+}
+.fot-middle h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+}
+.shoe img{
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+}
+.shoe{
+    margin-top: 60px;
+}
+.promo{
+  margin-top: 30px;
+}
+.promo p{
+ margin-top: 5px;
+ font-size: 22px;
+ color: grey;
+}
+.promo a{
+ text-decoration: none;
+ font-size: 24px;
+ color: rgb(170, 98, 237);
+}
+.loc{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.gmail{
+    display: flex;
+}
+.details{
+margin-top: 50px;
+}
+ .fot-right h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+    margin-left: -140px;
+
+}
+.details{
+    margin-left: -140px;
+  
+}
+.details div{
+    margin-top: 11px;
+    padding: 5px;
+  
+}
+.details i{
+   color: rgb(106, 5, 202);
+   font-size: 20px;
+  
+}
+.details p{
+   color: grey;
+   font-size: 22px;
+  
+}
+.fot-right2{
+    margin-top: 40px;
+    margin-left: -130px;
+    position: relative;
+}
+.fot-right2 .su{
+  color: rgb(97, 96, 96);
+}
+.fot-right2 p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+.fot-right2 .em{
+   font-size: 25px;
+   width: 300px;
+   height: 50px;
+  
+
+}
+
+.fot-right2 .se{
+ height: 47px;
+width: 80px;
+position: absolute;
+right: 2px;
+top: 53px;
+background-color: blueviolet;
+border-radius: 5px;
+border: none;
+
+
+}
+.se:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+.fot-right2 .eml{
+color: rgb(170, 163, 163);
+position: absolute;
+top: 40px;
+left: 10px;
+}
+.fot-right2 .sen{
+color: rgb(230, 221, 221);
+position: absolute;
+top: 48px;
+right: 15px;
+font-size: 20px;
+}
+.fot2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.fot2 p{
+font-size: 20px;
+color: rgb(181, 176, 176);
+}
+.fot2 i{
+font-size: 20px;
+color: rgb(99, 97, 97);
+}
+.fot2 .sem{
+font-size: 20px;
+color: rgb(122, 28, 209);
+}
+
+
+

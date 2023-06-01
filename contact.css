@@ -1,0 +1,288 @@
+.sides{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 30px;
+}
+.left-side .fa-magnifying-glass{
+  margin-right: 10px;
+  color: rgb(132, 126, 126);
+}
+.left-side input{
+outline: none;
+border: none;
+font-size: 20px;
+}
+.middle-side{
+    border: 3.5px solid rgb(100, 95, 95);
+    width: 210px;
+    height: 50px;
+    font-weight: bolder;
+ margin-right: 80px;
+ font-size: 16px;
+margin-top: -10px;
+color: gray;
+
+}
+.middle-side h1{
+    margin-top: 10px;
+}
+.right-side i{
+margin: 10px;
+color: gray;
+}
+.right-side i:hover{
+   color: black;
+  transition: ease .5s;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+}
+.nav1 a{
+    margin: 35px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: gray;
+}
+.nav1 a:hover{
+  
+    color: rgb(110, 10, 121);
+}
+.about{
+    background-color:whitesmoke;
+    height: 60px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about a{
+  text-decoration: none;
+
+font-size: 18px;
+color: rgb(160, 77, 238);
+
+}
+.about .ab{
+  
+margin-left: 10px;
+font-size: 18px;
+color: rgb(43, 41, 41);
+}
+.contact{
+    margin-top: 100px;
+    height:500px;
+}
+.contact .fa-circle-check{
+    font-size: 100px;
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+.fa-circle-check:hover{
+
+  transform: scale(1.1);
+  transition: ease;
+  
+  }
+.thank{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.you{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.blu:hover{
+
+  box-shadow: 2px 2px 3px 3px grey;
+  transition: ease;
+  
+  }
+.blu{
+width: 200px;
+background-color: blueviolet;
+border: none;
+border-radius: 4px;
+height: 50px;
+}
+.ba{
+position: absolute;
+color: whitesmoke;
+text-decoration: none;
+
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+  }
+  .fot-left1{
+    display: flex;
+    justify-content: space-around;
+   margin-left: -70px;
+   margin-top: 30px;
+  }
+  .fot-left h1{
+  font-size: 25px;
+  margin-top: 33px;
+  margin-bottom: -30px;
+  color: rgb(64, 64, 64);
+  }
+  .fot-left1 div{
+    margin-left: 30px;
+    margin-right: 20px;
+    
+  }
+  .fot-left1 p{
+   margin: 30px;
+   font-size: 18px;
+   color: gray;
+    
+  }
+  .fot-middle{
+    margin-left: -170px;
+  }
+  .fot-middle h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+  }
+  .shoe img{
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+  }
+  .shoe{
+    margin-top: 60px;
+  }
+  .promo{
+  margin-top: 30px;
+  }
+  .promo p{
+  margin-top: 5px;
+  font-size: 22px;
+  color: grey;
+  }
+  .promo a{
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(170, 98, 237);
+  }
+  .loc{
+    display: flex;
+  }
+  .phone{
+    display: flex;
+  }
+  .gmail{
+    display: flex;
+  }
+  .details{
+  margin-top: 50px;
+  }
+  .fot-right h1{
+    font-size: 25px;
+    margin-top: 33px;
+    margin-bottom: -30px;
+    color: rgb(64, 64, 64);
+    margin-left: -140px;
+  
+  }
+  .details{
+    margin-left: -140px;
+  
+  }
+  .details div{
+    margin-top: 11px;
+    padding: 5px;
+  
+  }
+  .details i{
+   color: rgb(106, 5, 202);
+   font-size: 20px;
+  
+  }
+  .details p{
+   color: grey;
+   font-size: 22px;
+  
+  }
+  .fot-right2{
+    margin-top: 40px;
+    margin-left: -130px;
+    position: relative;
+  }
+  .fot-right2 .su{
+  color: rgb(97, 96, 96);
+  }
+  .fot-right2 p{
+   font-size: 25px;
+   margin-bottom: 20px;
+  }
+  .fot-right2 .em{
+   font-size: 25px;
+   width: 300px;
+   height: 50px;
+  
+  
+  }
+  
+  .fot-right2 .se{
+  height: 47px;
+  width: 80px;
+  position: absolute;
+  right: 2px;
+  top: 53px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: none;
+  
+  
+  }
+  .se:hover{
+
+    box-shadow: 2px 2px 3px 3px grey;
+    transition: ease;
+    
+    }
+  .fot-right2 .eml{
+  color: rgb(170, 163, 163);
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  }
+  .fot-right2 .sen{
+  color: rgb(230, 221, 221);
+  position: absolute;
+  top: 48px;
+  right: 15px;
+  font-size: 20px;
+  }
+  .fot2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .fot2 p{
+  font-size: 20px;
+  color: rgb(181, 176, 176);
+  }
+  .fot2 i{
+  font-size: 20px;
+  color: rgb(99, 97, 97);
+  }
+  .fot2 .sem{
+  font-size: 20px;
+  color: rgb(122, 28, 209);
+  }
